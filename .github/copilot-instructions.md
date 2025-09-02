@@ -20,8 +20,8 @@
 - **Database:** PostgreSQL hosted on Neon.
 - **ORM:** Prisma.
 - **Authentication:** Auth.js (NextAuth.js).
-- **UI Components:** Shadcn/UI.
-- **Styling:** Tailwind CSS.
+- **UI Components:** Shadcn/UI v2.3.0, not latest version.
+- **Styling:** Tailwind CSS v3, not v4.
 - **State Management:**
   - **Server State:** TanStack Query (React Query).
   - **Global Client State:** Zustand.

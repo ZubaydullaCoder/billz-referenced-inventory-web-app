@@ -1,4 +1,4 @@
-# Product Requirements Document — Billz Inventory & POS
+# Product Requirements Document — OsonSavdo Inventory & POS
 
 Version: 0.1 (MVP)
 
@@ -49,8 +49,8 @@ How to use this document
 
 **1. User Stories**
 
-- **User Story 0.1.1:** As a new business owner, I want to try Billz free for 14 days with full access to all features, so I can evaluate if it meets my retail management needs before committing financially.
-- **User Story 0.1.2:** As a business owner evaluating Billz, I want a single, comprehensive plan that gives me unlimited access to products, sales, customers, and staff accounts, so I don't have to worry about usage limits during my trial.
+- **User Story 0.1.1:** As a new business owner, I want to try OsonSavdo free for 14 days with full access to all features, so I can evaluate if it meets my retail management needs before committing financially.
+- **User Story 0.1.2:** As a business owner evaluating OsonSavdo, I want a single, comprehensive plan that gives me unlimited access to products, sales, customers, and staff accounts, so I don't have to worry about usage limits during my trial.
 - **User Story 0.1.3:** As a business owner ready to subscribe, I want the option to pay monthly or annually (with a discount for annual payment), so I can choose the billing cycle that best fits my cash flow.
 - **User Story 0.1.4:** As a subscriber, I want clear visibility into my subscription status, billing cycle, and renewal date, so I can manage my account effectively.
 
@@ -58,7 +58,7 @@ How to use this document
 
 - **FR 0.1.1 - Single Plan Structure:**
 
-  - The system must offer exactly one subscription plan called **"Billz Pro"**.
+  - The system must offer exactly one subscription plan called **"OsonSavdo Pro"**.
   - This plan provides **unlimited access** to:
     - Unlimited Products
     - Unlimited Sales Transactions
@@ -69,7 +69,7 @@ How to use this document
 - **FR 0.1.2 - Free Trial Implementation:**
 
   - Every new account must automatically receive a **14-day free trial** upon registration.
-  - During the trial period, users must have **full, unlimited access** to all "Billz Pro" features.
+  - During the trial period, users must have **full, unlimited access** to all "OsonSavdo Pro" features.
   - The system must clearly display the trial status and remaining days in the user interface.
   - Trial users must be able to upgrade to a paid subscription at any time during the trial period.
 
@@ -115,7 +115,7 @@ How to use this document
   - **Given** a user's 14-day trial has expired.
   - **When** they attempt to log in.
   - **Then** the system must redirect them to the subscription/payment page.
-  - **And** display a clear message: "Your trial has expired. Subscribe to continue using Billz."
+  - **And** display a clear message: "Your trial has expired. Subscribe to continue using OsonSavdo."
 
 ---
 
